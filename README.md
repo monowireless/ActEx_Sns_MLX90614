@@ -177,8 +177,8 @@ q: PAL_MAG
 ※ MONOSTICK の替わりに TWELITE R/R2 + TWELITE DIP の組み合わせでも、同じように親機として利用できます。
 
 ### 書き込み確認時の運用
-1. 親機側 (MONOSTICK) の書き込み(App_Wings)と設定 (アプリケーションID `1234abcd`、チャネル `13`) を行い、動作させておいてください。<br />
-  [App_Wings](https://mono-wireless.com/jp/products/TWE-APPS/App_Wings/) を書き込んでおきます。TWELITE STAGE では[TWELITE APPSビルド&書換]にあります。
+1. 親機側 (MONOSTICK) に Parent-MONOSTIC (TWELITE STAGE, Actビルド&書換->Parent-MONOSTICKを選択) を書き込み後、ターミナル(TWELITE STAGE のターミナルなど)で開いておいてください。
+  - [App_Wings](https://mono-wireless.com/jp/products/TWE-APPS/App_Wings/) を書き込んだ場合は、書き込み後に設定 (アプリケーションID `1234abcd`、チャネル `13`) が必要です。
 2. 子機側のハードウェアの結線を行い、十分確認してください。
 3. 子機側を TWELITE R(2) に接続してください。<br />
   TWELITE STAGE でデバイス名(8桁の英数字, COM?ではない)が表示されない場合は、すぐに USB バスから切り離し、子機の電源をカットしてください。適切な接続ではなく過電流が流れるなど問題が出ている可能性があります。
@@ -345,6 +345,7 @@ Act での送信形式は以下のようなデータ順になっています。
 
 
 [App_Wings](https://mono-wireless.com/jp/products/TWE-APPS/App_Wings/index.html) で受信した場合は、シリアルポートに以下のように出力されます。
+(Parent-MONOSTICK の場合は書式が少し違いますが、上記データ列は共通ですので読み替えてください。)
 
 ```
 :01AA008201029100000000BA000C534954310B650B050D1D0007A7
