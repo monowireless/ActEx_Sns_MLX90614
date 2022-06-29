@@ -1,3 +1,8 @@
-Sns_MLX90614
-Melexis の赤外温度センサー MLX90614 を TWELITE 上で動作させます。
-https://github.com/monowireless/ActEx_Sns_MLX90614
+[JAPANESE]
+TITLE=Actエクストラ — Sns_MLX90614
+DESC=Melexis の赤外温度センサー MLX90614 を利用したサンプルです。
+URL=https://github.com/monowireless/ActEx_Sns_MLX90614
+[ENGLISH]
+TITLE=Act Extra — Sns_MLX90614
+DESC=Act Sample using Melexis MLX90614 IR temperature sensors
+URL=https://github.com/monowireless/ActEx_Sns_MLX90614
